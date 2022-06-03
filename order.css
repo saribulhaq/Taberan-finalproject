@@ -1,0 +1,67 @@
+@media screen and (min-width:1024px)
+{
+*{
+
+padding:0px;
+
+margin:0px;
+text-decoration: none;
+
+}
+
+body{
+
+
+background-color:A6FEB4;
+
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  }
+  / optional: show position indicator in red */
+}
+.nav
+{
+    margin:0px;
+    height: 60px;
+    width:auto;
+    background-color: 0B4355;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Italiana';
+    font-size: 50px;
+}
+input[type="button"]{
+
+    padding: 20px 40px;
+   
+    border:none;
+   
+    background-color:white;
+   
+    color:cornflowerblue;
+   
+    border:3px solid cornflowerblue;
+    border-radius:5px;
+   
+    margin-top:70px;
+    margin-left:580px;
+    margin-right:20px;
+    font-weight:600;
+   
+   }
+   #googlemap {
+    margin-top:10px;
+    height: 900px;
+    width: 100%;
+  }
+}

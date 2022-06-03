@@ -1,0 +1,1105 @@
+@media screen and (min-width:1024px)
+{
+*{
+
+padding:0px;
+
+margin:0px;
+text-decoration: none;
+
+}
+
+body{
+
+
+background-color:A6FEB4;
+
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  }
+  / optional: show position indicator in red */
+}
+.nav
+{
+    margin:0px;
+    height: 60px;
+    width:auto;
+    background-color: 0B4355;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Italiana';
+    font-size: 50px;
+}
+.navbar
+{
+  
+    height: 60px;
+    width: auto;
+    background-color: #217385;
+    
+  
+}
+.navbar>a
+{
+  font-family: 'Italiana';
+    color:white;
+    font-size:20px;
+    position: absolute;
+    text-decoration: none;
+    top:80px;
+    left:60px;
+}
+
+
+.fash
+{
+    margin-left:230px;
+}
+.fash:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 105px;
+}
+.elec
+{
+    margin-left:380px;
+}
+.elec:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 115px;
+}
+.new
+{
+    margin-left:550px;
+}
+.new:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 140px;
+}
+.ser
+{
+    margin-left:745px;
+}
+.ser:hover
+{
+    border: 2px solid white;
+    color:white;
+    border-radius: 2px;
+    width: 170px;
+}
+.out
+{
+  margin-left:1190px;
+}
+.out:hover
+{
+    border: 2px solid white;
+    color:white;
+    border-radius: 2px;
+    width: 90px;
+}
+.sidebar{
+    position: fixed;
+    width: 240px;
+    left: -240px;
+    height: 100%;
+    background: #1e1e1e;
+    transition: all .5s ease;
+    
+  }
+  .sidebar header{
+    font-size: 28px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #1b1b1b;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .sidebar a{
+    display:block ;
+      height: 65px;
+      width: 70%;
+      color: white;
+      line-height: 65px;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+      border-top: 1px solid rgba(255,255,255,.1);
+      border-left: 5px solid transparent;
+      font-family: 'Open Sans', sans-serif;
+      transition: all .5s ease;
+    }
+  a.active,a:hover{
+    border-left: 5px solid #b93632;
+    color: #b93632;
+  }
+  .sidebar a i{
+    font-size: 23px;
+    margin-right: 16px;
+  }
+  .sidebar a span{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  #check{
+    display: none;
+  }
+  label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    color:white;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    transition: all .5s ease;
+  }
+  label #cancel{
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+  
+ 
+  #check:checked ~ label #btn{
+    margin-left: 245px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ label #cancel{
+    margin-left: 245px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .container
+    {
+        display:flex;
+        margin-left:250px;
+        margin-right:150px;
+        margin-top:1px;
+        margin-bottom:0px;
+        flex-wrap:wrap;
+        align-content:stretch;
+        height:400px;
+        align-content:space-between;      
+        
+       
+      
+    }
+  .card
+  {
+    background: white;
+    width: 280px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 7px;
+    
+  }
+ .card-image
+ {
+   height: 230px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0 ;
+ }
+.one>img
+{
+  width:280px;
+  height: 220px;
+}
+h2
+{
+  text-align: center;
+  font-family: 'Italiana';
+  font-size: 30px;
+
+  margin-top: 15px;
+}
+.card>a
+{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin:20px 50px;
+  margin-top: 50px;
+}
+.card:hover
+{
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transform: all 1s ease;
+}
+.f1
+{
+  margin-top: 600px;
+  height: 300px;
+  width: auto;
+  background-color: white;
+}
+.f1>p
+{
+  font-size: 30px;
+  margin-left:10px;
+
+
+}
+.f1>a>img
+{
+  width:310px;
+  height: 230px;
+  margin:13px;
+}
+.footer
+{
+  margin-top: 30px;
+  height: 300px;
+  width: auto;
+  background-color: 0B4355;
+}
+.footer h2
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1490px;
+	left:620px;
+	color:white;
+}
+.footer p
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1590px;
+	left:620px;
+	color:white;
+}
+.footer span
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1630px;
+	left:620px;
+	color:white;
+}
+.footer a
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1670px;
+	left:620px;
+	color:white;
+}
+
+ #googleMap {
+    
+    margin-left:950px;
+	width:30%;height:300px;
+  }
+  .cc h2
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1490px;
+	left:150px;
+	color:white;
+}
+.cc p
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1590px;
+	left:150px;
+	color:white;
+}
+.cc span
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1630px;
+	left:150px;
+	color:white;
+}
+.cc a
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1670px;
+	left:150px;
+	color:white;
+}
+}
+  @media(max-width : 860px){
+    .sidebar{
+      height: auto;
+      width: 70px;
+      left: 0;
+      margin: 100px 0;
+    }
+    header,#btn,#cancel{
+      display: none;
+    }
+    span{
+      
+      position: absolute;
+      margin-left: 23px;
+      opacity: 1;
+      visibility: hidden;
+    }
+    .sidebar a{
+      height: 60px;
+    }
+    .sidebar a i{
+      margin-left: -10px;
+    }
+    a:hover {
+      width: 200px;
+      background: inherit;
+    }
+    .sidebar a:hover span{
+      opacity: 1;
+      visibility: visible;
+    }
+    
+  }
+
+@media screen and (max-width:1024px) and (min-width:801px) 
+{
+*{
+
+padding:0px;
+
+margin:0px;
+text-decoration: none;
+
+}
+
+body{
+
+
+background-color:A6FEB4;
+
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  }
+  / optional: show position indicator in red */
+}
+.nav
+{
+    margin:0px;
+    height: 60px;
+    width:auto;
+    background-color: 0B4355;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Italiana';
+    font-size: 50px;
+}
+.navbar
+{
+  
+    height: 60px;
+    width: auto;
+    background-color: #217385;
+    
+  
+}
+.navbar>a
+{
+  font-family: 'Italiana';
+    color:white;
+    font-size:20px;
+    position: absolute;
+    text-decoration: none;
+    top:80px;
+    left:60px;
+}
+
+
+.fash
+{
+    margin-left:230px;
+}
+.fash:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 105px;
+}
+.elec
+{
+    margin-left:380px;
+}
+.elec:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 115px;
+}
+.new
+{
+    margin-left:550px;
+}
+.new:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 140px;
+}
+.ser
+{
+    margin-left:745px;
+}
+.ser:hover
+{
+    border: 2px solid white;
+    color:white;
+    border-radius: 2px;
+    width: 170px;
+}
+.out
+{
+  margin-left:1190px;
+}
+.out:hover
+{
+    border: 2px solid white;
+    color:white;
+    border-radius: 2px;
+    width: 90px;
+}
+.sidebar{
+    position: fixed;
+    width: 240px;
+    left: -240px;
+    height: 100%;
+    background: #1e1e1e;
+    transition: all .5s ease;
+    
+  }
+  .sidebar header{
+    font-size: 28px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #1b1b1b;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .sidebar a{
+    display:block ;
+      height: 65px;
+      width: 70%;
+      color: white;
+      line-height: 65px;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+      border-top: 1px solid rgba(255,255,255,.1);
+      border-left: 5px solid transparent;
+      font-family: 'Open Sans', sans-serif;
+      transition: all .5s ease;
+    }
+  a.active,a:hover{
+    border-left: 5px solid #b93632;
+    color: #b93632;
+  }
+  .sidebar a i{
+    font-size: 23px;
+    margin-right: 16px;
+  }
+  .sidebar a span{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  #check{
+    display: none;
+  }
+  label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    color:white;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    transition: all .5s ease;
+  }
+  label #cancel{
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+  
+ 
+  #check:checked ~ label #btn{
+    margin-left: 245px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ label #cancel{
+    margin-left: 245px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .container
+    {
+        display:flex;
+        margin-left:250px;
+        margin-right:150px;
+        margin-top:1px;
+        margin-bottom:0px;
+        flex-wrap:wrap;
+        align-content:stretch;
+        height:400px;
+        align-content:space-between;      
+        
+       
+      
+    }
+  .card
+  {
+    background: white;
+    width: 280px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 7px;
+    
+  }
+ .card-image
+ {
+   height: 230px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0 ;
+ }
+.one>img
+{
+  width:280px;
+  height: 220px;
+}
+h2
+{
+  text-align: center;
+  font-family: 'Italiana';
+  font-size: 30px;
+
+  margin-top: 15px;
+}
+.card>a
+{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin:20px 50px;
+  margin-top: 50px;
+}
+.card:hover
+{
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transform: all 1s ease;
+}
+.f1
+{
+  margin-top: 1050px;
+  height: 300px;
+  width: auto;
+  background-color: white;
+}
+.f1>p
+{
+  font-size: 30px;
+  margin-left:10px;
+
+
+}
+.f1>a>img
+{
+  width:222px;
+  height: 230px;
+  margin:13px;
+}
+.footer
+{
+  margin-top: 30px;
+  height: 300px;
+  width: auto;
+  background-color: 0B4355;
+}
+.footer h2
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1920px;
+	left:390px;
+	color:white;
+}
+.footer p
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:2000px;
+	left:390px;
+	color:white;
+}
+.footer span
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:2050px;
+	left:390px;
+	color:white;
+}
+.footer a
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:2100px;
+	left:390px;
+	color:white;
+}
+
+ #googleMap {
+    
+    margin-left:710px;
+	width:30%;height:300px;
+  }
+  .cc h2
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:1920px;
+	left:50px;
+	color:white;
+}
+.cc p
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:2000px;
+	left:50px;
+	color:white;
+}
+.cc span
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:2050px;
+	left:50px;
+	color:white;
+}
+.cc a
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:2100px;
+	left:50px;
+	color:white;
+}
+}
+
+@media screen and (max-width:801px) and (min-width:480px) 
+{
+*{
+
+padding:0px;
+
+margin:0px;
+text-decoration: none;
+
+}
+
+body{
+
+
+background-color:A6FEB4;
+
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  }
+  / optional: show position indicator in red */
+}
+.nav
+{
+    margin:0px;
+    height: 60px;
+    width:auto;
+    background-color: 0B4355;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Italiana';
+    font-size: 50px;
+}
+.navbar
+{
+  
+    height: 60px;
+    width: auto;
+    background-color: #217385;
+    
+  
+}
+.navbar>a
+{
+  font-family: 'Italiana';
+    color:white;
+    font-size:20px;
+    position: absolute;
+    text-decoration: none;
+    top:80px;
+    left:0px;
+}
+
+
+.fash
+{
+    margin-left:20px;
+}
+.fash:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 105px;
+}
+.elec
+{
+    margin-left:150px;
+}
+.elec:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 115px;
+}
+.new
+{
+    margin-left:300px;
+}
+.new:hover
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    width: 140px;
+}
+.ser
+{
+    margin-left:475px;
+}
+.ser:hover
+{
+    border: 2px solid white;
+    color:white;
+    border-radius: 2px;
+    width: 170px;
+}
+.out
+{
+  margin-left:690px;
+}
+.out:hover
+{
+    border: 2px solid white;
+    color:white;
+    border-radius: 2px;
+    width: 90px;
+}
+.sidebar{
+    position: fixed;
+    width: 240px;
+    left: -240px;
+    height: 100%;
+    background: #1e1e1e;
+    transition: all .5s ease;
+    
+  }
+  .sidebar header{
+    font-size: 28px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #1b1b1b;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .sidebar a{
+    display:block ;
+      height: 65px;
+      width: 70%;
+      color: white;
+      line-height: 65px;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+      border-top: 1px solid rgba(255,255,255,.1);
+      border-left: 5px solid transparent;
+      font-family: 'Open Sans', sans-serif;
+      transition: all .5s ease;
+    }
+  a.active,a:hover{
+    border-left: 5px solid #b93632;
+    color: #b93632;
+  }
+  .sidebar a i{
+    font-size: 23px;
+    margin-right: 16px;
+  }
+  .sidebar a span{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  #check{
+    display: none;
+  }
+  label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    color:white;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    transition: all .5s ease;
+  }
+  label #cancel{
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+  
+ 
+  #check:checked ~ label #btn{
+    margin-left: 245px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ label #cancel{
+    margin-left: 245px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .container
+    {
+        display:flex;
+        margin-left:250px;
+        margin-right:150px;
+        margin-top:1px;
+        margin-bottom:0px;
+        flex-wrap:wrap;
+        align-content:stretch;
+        height:400px;
+        align-content:space-between;      
+        
+       
+      
+    }
+  .card
+  {
+    background: white;
+    width: 280px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 7px;
+    
+  }
+ .card-image
+ {
+   height: 230px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0 ;
+ }
+.one>img
+{
+  width:280px;
+  height: 220px;
+}
+h2
+{
+  text-align: center;
+  font-family: 'Italiana';
+  font-size: 30px;
+
+  margin-top: 15px;
+}
+.card>a
+{
+  background-color: black;
+  color: white;
+  padding: 15px 5px;
+  display: block;
+  text-align: center;
+  margin:20px 50px;
+  margin-top: 50px;
+}
+.card:hover
+{
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transform: all 1s ease;
+}
+.f1
+{
+  margin-top: 2480px;
+  height: 580px;
+  width: auto;
+  background-color: white;
+}
+.f1>p
+{
+  font-size: 30px;
+  margin-left:10px;
+
+
+}
+.f1>a>img
+{
+  width:282px;
+  height: 230px;
+  margin:13px;
+  margin-left:70px;
+  
+}
+.footer
+{
+  margin-top: 100px;
+  height: 300px;
+  width: auto;
+  background-color: 0B4355;
+}
+.footer h2
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3720px;
+	left:310px;
+	color:white;
+}
+.footer p
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3820px;
+	left:240px;
+	color:white;
+}
+.footer span
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3860px;
+	left:240px;
+	color:white;
+}
+.footer a
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3920px;
+	left:240px;
+	color:white;
+}
+
+ #googleMap {
+    
+    margin-left:570px;
+	width:30%;height:300px;
+  }
+  .cc h2
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3720px;
+	left:20px;
+	color:white;
+}
+.cc p
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3820px;
+	left:20px;
+	color:white;
+}
+.cc span
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3760px;
+	left:20px;
+	color:white;
+}
+.cc a
+{
+	font-family:'Italiana';
+	position:absolute;
+	top:3920px;
+	left:20px;
+	color:white;
+}
+}

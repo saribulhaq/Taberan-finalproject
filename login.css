@@ -1,0 +1,650 @@
+@media screen and (min-width:1024px)
+{
+*{
+
+padding:0px;
+
+margin:0px;
+
+}
+
+body{
+
+
+background-color:#A6FEB4;
+
+}
+section>h1
+{
+
+   text-align: center;
+   font-family: 'Italiana';
+   font-size: 90px;
+   color: black;
+}
+		
+
+.login{
+
+    width:400px;
+    
+    height:460px;
+    border:2px solid #A6FEB4;
+    border-radius:5%;
+    
+    font-family:Verdana;
+    
+    
+    position:absolute;
+    top:140px;
+    left:480px;
+}
+
+
+
+
+
+
+center>h1{
+
+margin-top:15px;
+margin-right: 160px;
+font-size:40px;
+font-family: 'Italiana';
+color:black;
+}
+
+
+
+input[type="text"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+ border-radius:5px;
+
+ margin-top:40px;
+ margin-left:10px;
+
+ font-weight:600;
+
+}
+
+input[type="password"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+border-radius:5px;
+ margin-top:20px;
+
+ font-weight:600;
+ margin-left:10px;
+
+}
+
+input[type="submit"]{
+
+ text-decoration:none;
+
+ color:black;
+
+ padding:10px 20px;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+
+ font-size:18px;
+
+ font-weight:1000;
+
+ font-family: 'Italiana';
+
+ border-radius: 10px;
+
+ border:none;
+
+ margin-top:30px;
+ margin-left:0px;
+
+}
+
+.login a{
+
+ text-decoration:none;
+
+ color:blue;
+
+ padding:10px 20px;
+ 
+ font-family: 'Italiana';
+margin-top: 10px;
+margin-left:10px;
+}
+
+section>p
+{
+  color: black;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom: 20px;
+  margin-right: 180px;
+  font-family: 'Italiana';
+}
+
+
+
+
+
+.login a:hover{
+
+ text-decoration:none;
+
+ color:blue;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+ 
+ border-radius: 10px;
+
+ 
+
+ }
+ 
+}
+	
+@media screen and (max-width:1024px) and (min-width:801px) 
+{
+
+*{
+
+padding:0px;
+
+margin:0px;
+
+}
+body{
+
+background-color:#A6FEB4;
+
+}
+
+
+.login{
+
+    width:400px;
+    
+    height:460px;
+    border:2px solid #A6FEB4;
+    border-radius:5%;
+    
+    font-family:Verdana;
+    
+    
+    position:absolute;
+    top:140px;
+    left:300px;
+}
+
+
+
+section>h1
+{
+
+   text-align: center;
+   font-family: 'Italiana';
+   font-size: 90px;
+   color: black;
+}
+center>h1{
+
+margin-top:15px;
+margin-right: 160px;
+font-size:40px;
+font-family: 'Italiana';
+color:black;
+}
+
+input[type="text"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+ border-radius:5px;
+
+ margin-top:40px;
+ margin-left:10px;
+
+ font-weight:600;
+
+}
+
+input[type="password"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+border-radius:5px;
+ margin-top:20px;
+
+ font-weight:600;
+ margin-left:10px;
+
+}
+
+input[type="submit"]{
+
+ text-decoration:none;
+
+ color:black;
+
+ padding:10px 20px;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+
+ font-size:18px;
+
+ font-weight:1000;
+
+ font-family: 'Italiana';
+
+ border-radius: 10px;
+
+ border:none;
+
+ margin-top:30px;
+ margin-left:0px;
+
+}
+
+.login a{
+
+ text-decoration:none;
+
+ color:blue;
+
+ padding:10px 20px;
+ 
+ font-family: 'Italiana';
+margin-top: 10px;
+margin-left:10px;
+}
+
+section>p
+{
+  color: black;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom: 20px;
+  margin-right: 180px;
+  font-family: 'Italiana';
+}
+
+
+
+
+
+.login a:hover{
+
+ text-decoration:none;
+
+ color:blue;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+ 
+ border-radius: 10px;
+
+ 
+
+ }
+ 
+}
+	
+@media screen and (max-width:801px) and (min-width:480px) 
+{
+
+*{
+
+padding:0px;
+
+margin:0px;
+
+}
+body{
+
+background-color:#A6FEB4;
+
+}
+
+
+.login{
+
+    width:400px;
+    
+    height:460px;
+    border:2px solid #A6FEB4;
+    border-radius:5%;
+    
+    font-family:Verdana;
+    
+    
+    position:absolute;
+    top:140px;
+    left:180px;
+}
+
+
+
+section>h1
+{
+
+   text-align: center;
+   font-family: 'Italiana';
+   font-size: 90px;
+   color: black;
+}
+center>h1{
+
+margin-top:15px;
+margin-right: 160px;
+font-size:40px;
+font-family: 'Italiana';
+color:black;
+}
+
+input[type="text"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+ border-radius:5px;
+
+ margin-top:40px;
+ margin-left:10px;
+
+ font-weight:600;
+
+}
+
+input[type="password"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+border-radius:5px;
+ margin-top:20px;
+
+ font-weight:600;
+ margin-left:10px;
+
+}
+
+input[type="submit"]{
+
+ text-decoration:none;
+
+ color:black;
+
+ padding:10px 20px;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+
+ font-size:18px;
+
+ font-weight:1000;
+
+ font-family: 'Italiana';
+
+ border-radius: 10px;
+
+ border:none;
+
+ margin-top:30px;
+ margin-left:0px;
+
+}
+
+.login a{
+
+ text-decoration:none;
+
+ color:blue;
+
+ padding:10px 20px;
+ 
+ font-family: 'Italiana';
+margin-top: 10px;
+margin-left:10px;
+}
+
+section>p
+{
+  color: black;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom: 20px;
+  margin-right: 180px;
+  font-family: 'Italiana';
+}
+
+
+
+
+
+.login a:hover{
+
+ text-decoration:none;
+
+ color:blue;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+ 
+ border-radius: 10px;
+
+ 
+
+ }
+ 
+}
+
+@media screen and (max-width:480px)
+{
+
+*{
+
+padding:0px;
+
+margin:0px;
+
+}
+body{
+
+background-color:#A6FEB4;
+
+}
+
+
+.login{
+
+    width:400px;
+    
+    height:460px;
+    border:2px solid #A6FEB4;
+    border-radius:5%;
+    
+    font-family:Verdana;
+    
+    
+    position:absolute;
+    top:80px;
+    left:80px;
+}
+
+
+
+section>h1
+{
+
+   text-align: center;
+   font-family: 'Italiana';
+   font-size: 90px;
+   color: black;
+}
+center>h1{
+
+margin-top:15px;
+margin-right: 160px;
+font-size:40px;
+font-family: 'Italiana';
+color:black;
+}
+
+input[type="text"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+ border-radius:5px;
+
+ margin-top:40px;
+ margin-left:10px;
+
+ font-weight:600;
+
+}
+
+input[type="password"]{
+
+ padding: 20px 40px;
+
+ border:none;
+
+ background-color:white;
+
+ color:black;
+
+ border:3px solid black;
+border-radius:5px;
+ margin-top:20px;
+
+ font-weight:600;
+ margin-left:10px;
+
+}
+
+input[type="submit"]{
+
+ text-decoration:none;
+
+ color:black;
+
+ padding:10px 20px;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+
+ font-size:18px;
+
+ font-weight:1000;
+
+ font-family: 'Italiana';
+
+ border-radius: 10px;
+
+ border:none;
+
+ margin-top:30px;
+ margin-left:0px;
+
+}
+
+.login a{
+
+ text-decoration:none;
+
+ color:blue;
+
+ padding:10px 20px;
+ 
+ font-family: 'Italiana';
+margin-top: 10px;
+margin-left:10px;
+}
+
+section>p
+{
+  color: black;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom: 20px;
+  margin-right: 180px;
+  font-family: 'Italiana';
+}
+
+
+
+
+
+.login a:hover{
+
+ text-decoration:none;
+
+ color:blue;
+
+ /*background-image:linear-gradient(#eb3349, #f45c43);*/
+ background-color:white;
+ 
+ border-radius: 10px;
+
+ 
+
+ }
+ 
+ 
+}
